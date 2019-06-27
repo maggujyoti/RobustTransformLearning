@@ -1,16 +1,19 @@
 # RobustTransformLearning
+
 This work introduces robust transform learning. 
-% solves ||TX - Z||_1 - mu*logdet(T) + eps*mu||T||_Fro + tau||Z||_1
 
-% Inputs
-% X          - Training Data
-% numOfAtoms - dimensionaity after Transform
-% mu         - regularizer for Tranform
-% lambda     - regularizer for coefficient
+solves ||TX - Z||_1 - mu*logdet(T) + eps*mu||T||_Fro + tau||Z||_1
 
-% Output
-% T          - learnt Transform
-% Z          - learnt sparse coefficients
+
+ Inputs
+ X          - Training Data
+ numOfAtoms - dimensionaity after Transform
+ mu         - regularizer for Tranform
+ lambda     - regularizer for coefficient
+
+ Output
+ T          - learnt Transform
+ Z          - learnt sparse coefficients
 
 
 Related Publication:
